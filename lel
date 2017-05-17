@@ -13,7 +13,6 @@ def create_process(args, file):
     return task
     
 if __name__ == '__main__':
-    output_file = 'lel.out'
     args = sys.argv[2:]
     print "running '" + " ".join(args) + "' "+sys.argv[1]+" times"
     times = int(sys.argv[1])
